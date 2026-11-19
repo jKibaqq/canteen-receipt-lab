@@ -42,7 +42,7 @@ else:
 
 if payment == subtotal:
     payment_ok = "OK"
-elif payment != subtotal:
+else:
     payment_ok = "Insufficient payment"
 
     print("Discount:", discount)
